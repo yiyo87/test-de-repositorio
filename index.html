@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    
+    <header>
+        <h2 id="inicio">Blog NBA</h2>
+        <ul id="menu">
+            <a href="#playoff">
+                <li>Noticia1</li>
+            </a>
+            <a href="#playin">
+                <li>Noticia2</li>
+            </a>
+            <a href="#golden">
+                <li>Noticia3</li>
+            </a>
+            <a href="#lesionados">
+                <li>Noticia4</li>
+            </a>
+            <a href="#video">
+                <li>video</li>
+            </a>
+            <a href="#formulario">
+                <li>Formulario</li>
+            </a>
+        </ul>
+        <button onclick="myFunction()">Modo Oscuro</button>
+    </header>
+    <section class="container">
+        <article class="post">
+            <a href="https://www.marca.com/baloncesto/nba/2024/04/20/662378ca46163f67a18b45bf.html" target="_blank">
+                <h2 id="playoff">Play-Offs NBA 2024</h2>
+            </a>
+            <p>Asi queda los juegos de los play-off de la nba</p>
+            <img src="play off 2024.jpg" width="390px">
+        </article>
+        <article class="post">
+            <a href="https://www.mundodeportivo.com/baloncesto/nba/20240415/1002228175/play-in-nba-2024-calendario-horarios-television.html" target="_blank">
+                <h2 id="playin">Play-In Tournament 2024</h2>
+            </a>
+            <p>Asi quedan los juegos de mini torneo para poder cladificar a los play offs</p>
+            <img src="play in 2024.jpeg" width="390px">
+        </article>
+        <article class="post">
+            <a href="https://www.antena2.com/baloncesto/warriors-de-stephen-curry-eliminados-en-el-play-de-la-nba" target="_blank">
+                <h2 id="golden">Eliminacion de Golden State Warriors</h2>
+            </a>
+            <p>Golden State Warriors no pudieron clasificar a los play-offs</p>
+            <img src="warriors.jpeg" width="390px">
+        </article>
+        <article class="post">
+            <a href="https://www.marca.com/baloncesto/nba/2024/04/19/6622667c46163f66688b45bb.html" target="_blank">
+                <h2 id="lesionados">Lesionados</h2>
+            </a>
+            <p>Informacion actualizada de lesionados en la NBA</p>
+            <img src="lesionados.jpg" width="390px">
+        </article>
+        <article class="post">
+            <h2 id="video">Recuerdo como si fuera ayer</h2>
+            <p>La pelea de la verguenza</p>
+            <video id="video1" controls src="Most Infamous fight in NBA History! Pacers_Pistons Brawl 2004 (Malice in the Palace).mp4" width="390"></video>
+        </article>
+        <section>
+            <form action="">
+                <h2 id="formulario">Quieres toda la informacion aca registrate</h2>
+                <div id="labelnombre">
+                    <label for="">Nombre</label>
+                    <input type="text" placeholder="Nombre">
+                </div>
+                <div id="labelapellido">
+                    <label for="">Apellido</label>
+                    <input type="text" placeholder="Apellido">
+                </div>
+                <div id="labelcorreo">
+                    <label for="">Correo electronico</label>
+                    <input type="text" placeholder="email">
+                </div>
+                <div id="enviar">
+                    <input onclick="click()" type="submit" value="Enviar">
+                </div>
+            </form>
+        </section>
+        <footer>
+            <a href="#inicio">Ir al inicio</a>
+        </footer>
+    </section>
+</body>
+</html>
